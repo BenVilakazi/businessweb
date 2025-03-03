@@ -10,8 +10,8 @@ import ServicesDetails from "@/ui/ServicesDetails";
 const servicesData = [
   {
     no: "01",
-    title: "Portfolio making",
-    startingAmt: "300.00",
+    title: "Single Page Website",
+    startingAmt: "2499.90",
     detailsOne: "Fully designed components",
     detailsTwo: "Highly Responsive",
     detailsThree: "Single page Application",
@@ -20,18 +20,18 @@ const servicesData = [
   },
   {
     no: "02",
-    title: "Single page Website",
-    startingAmt: "500.00",
+    title: "Multi Page Website(No CMS)",
+    startingAmt: "3499.90",
     detailsOne: "Fully designed components",
     detailsTwo: "Highly Responsive",
-    detailsThree: "Single page Application",
+    detailsThree: "Single Page Website with no CMS",
     detailsFour: "Source code available",
     detailsFive: "Deploy anywhere you want",
   },
   {
     no: "03",
-    title: "Chatting App",
-    startingAmt: "1500.00",
+    title: "MultiPage Website",
+    startingAmt: "4999.00",
     detailsOne: "Fully designed components",
     detailsTwo: "Highly Responsive",
     detailsThree: "Single page Application",
@@ -41,7 +41,27 @@ const servicesData = [
   {
     no: "04",
     title: "E-commerce website",
-    startingAmt: "2000.00",
+    startingAmt: "9999.00",
+    detailsOne: "Fully designed components",
+    detailsTwo: "Highly Responsive",
+    detailsThree: "Single page Application",
+    detailsFour: "Source code available",
+    detailsFive: "Deploy anywhere you want",
+  },
+  {
+    no: "05",
+    title: "Mobile App",
+    startingAmt: "Get a Quote",
+    detailsOne: "Fully designed components",
+    detailsTwo: "Highly Responsive",
+    detailsThree: "Single page Application",
+    detailsFour: "Source code available",
+    detailsFive: "Deploy anywhere you want",
+  },
+  {
+    no: "06",
+    title: "SEO Optimization",
+    startingAmt: "999.99",
     detailsOne: "Fully designed components",
     detailsTwo: "Highly Responsive",
     detailsThree: "Single page Application",
@@ -49,6 +69,94 @@ const servicesData = [
     detailsFive: "Deploy anywhere you want",
   },
 ];
+const designData = [
+  {
+    no: "01",
+    title: "Basic",
+    startingAmt: "2499.00",
+    detailsOne: "1 Platform",
+    detailsTwo: "10 posts/Month",
+    detailsThree: "Account Setup",
+    detailsFour: "Page Optimization",
+    detailsFive: "Montly Management",
+  },
+  {
+    no: "02",
+    title: "Start Up Package",
+    startingAmt: "4849.99",
+    detailsOne: "2 Platforms",
+    detailsTwo: "3 Posts/Week",
+    detailsThree: "Account Setup",
+    detailsFour: "Page Optimization",
+    detailsFive: "Montly Management",
+  },
+  {
+    no: "03",
+    title: "Growth Package",
+    startingAmt: "8549.99",
+    detailsOne: "3 Platforms",
+    detailsTwo: "4 Posts/Week",
+    detailsThree: "Account Setup",
+    detailsFour: "Page Optimization",
+    detailsFive: "Montly Management",
+  },
+  {
+    no: "04",
+    title: "Scale Package",
+    startingAmt: "11 999.99",
+    detailsOne: "4 Platforms",
+    detailsTwo: "4 Posts/Week",
+    detailsThree: "Account Setup",
+    detailsFour: "Page Optimization",
+    detailsFive: "Montly Management",
+  },
+];
+
+const hostingData = [
+  {
+    no: "01",
+    title: "Web Hosting",
+    startingAmt: "299.99 /Month",
+    detailsOne: "1 CPU",
+    detailsTwo: "1 GB RAM",
+    detailsThree: "20 GB SSD",
+    detailsFour: "Unlimited Traffic",
+    detailsFive: "Unlimited Emails",
+  },
+  {
+    no: "02",
+    title: "Web Hosting",
+    startingAmt: "3599.99 /Year",
+    detailsOne: "Unlimited databases",
+    detailsTwo: "5 Websites",
+    detailsThree: "20 GB SSD",
+    detailsFour: "Unlimited Traffic",
+    detailsFive: "Unlimited Emails",
+  },
+];
+
+const domainData =[
+  {
+    no: "01",
+    title: "Website Maintenance",
+    startingAmt: "299p/m",
+    detailsOne: "Software Updates",
+    detailsTwo: "Security Monitoring",
+    detailsThree: "Performance Optimization",
+    detailsFour: "Regular Updates",
+    detailsFive: "Content Updates"
+  },
+  {
+    no:"02",
+    title: "Websie Maintenace",
+    startingAmt: "3599.00p/year",
+    detailsOne: "Software Updates",
+    detailsTwo: "Security Updates",
+    detailsThree: "Perfomance Optimization",
+    detailsFour: "SEO Optimization",
+    detailsFive: "Content Updates"
+  }
+]
 
 const Services = () => {
   let [development, setDevelopment] = useState(true);
@@ -98,7 +206,7 @@ const Services = () => {
             <span>
               <SiAntdesign />
             </span>
-            Design
+            Marketing
           </p>
           <p
             onClick={() => {
@@ -116,7 +224,7 @@ const Services = () => {
             <span>
               <IoMdCheckmarkCircle />
             </span>
-            Domain
+            Maintenance
           </p>
           <p
             onClick={() => {
@@ -185,7 +293,7 @@ const Services = () => {
           }}
           className="max-w-screen-2xl mx-auto pb-20 font-titleFont flex justify-center items-center flex-1 flex-wrap gap-6 px-4"
         >
-          {servicesData.map((item) => (
+          {designData.map((item) => (
             <ServicesDetails
               key={item?.no}
               no={item?.no}
@@ -216,7 +324,7 @@ const Services = () => {
           }}
           className="max-w-screen-2xl mx-auto pb-20 font-titleFont flex justify-center items-center flex-1 flex-wrap gap-6 px-4"
         >
-          {servicesData.map((item) => (
+          {domainData.map((item) => (
             <ServicesDetails
               key={item?.no}
               no={item?.no}
@@ -247,7 +355,7 @@ const Services = () => {
           }}
           className="max-w-screen-2xl mx-auto pb-20 font-titleFont flex justify-center items-center flex-1 flex-wrap gap-6 px-4"
         >
-          {servicesData.map((item) => (
+          {hostingData.map((item) => (
             <ServicesDetails
               key={item?.no}
               no={item?.no}
