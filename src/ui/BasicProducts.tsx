@@ -35,8 +35,7 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+          Building dynamic user interfaces with a component-based architecture.
           </p>
         </div>
       </div>
@@ -63,8 +62,7 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+          Cross-platform mobile app development using a single codebase.
           </p>
         </div>
       </div>
@@ -89,8 +87,7 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            Hybrid static and server rendering for optimized web applications.
           </p>
         </div>
       </div>
@@ -117,8 +114,7 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+          Utility-first classes for quickly building custom designs.
           </p>
         </div>
       </div>
@@ -143,8 +139,7 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+          Real-time, collaborative content editing with flexible content schemas.
           </p>
         </div>
       </div>
@@ -169,8 +164,7 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+          Firebase's for real-time data sync across clients with Realtime Database.
           </p>
         </div>
       </div>
@@ -195,8 +189,7 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+          Seamless deployment and hosting for static sites and serverless functions.
           </p>
         </div>
       </div>
@@ -221,8 +214,7 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+          Automated deployments and powerful serverless functions for modern web projects.
           </p>
         </div>
       </div>

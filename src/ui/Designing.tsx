@@ -28,17 +28,15 @@ const Designing = () => {
                 01
               </span>
               <p className="text-base text-darkText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-                dolor exercitationem temporibus dolorem. Repudiandae ipsum!!
+              Comprehensive Web Development: We specialize in crafting dynamic and responsive websites tailored to your unique needs. From stunning design to seamless functionality, our experienced team ensures your online presence stands out and performs flawlessly.
               </p>
             </div>
             <div className="flex gap-10 mdl:w-4/5">
               <span className="font-titleFont relative font-normal border-b border-borderColor before:w-[1px] before:h-[7px] before:bg-borderColor before:inline-block before:left-0 before:bottom-0 before:absolute h-7 w-20 px-2">
-                01
+                02
               </span>
               <p className="text-base text-darkText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-                dolor exercitationem temporibus dolorem. Repudiandae ipsum!!
+              Holistic Online Marketing Solutions: Elevate your brand with our strategic online marketing services. From SEO and content creation to social media management and email campaigns, we employ a data-driven approach to maximize your online visibility and drive measurable results.
               </p>
             </div>
           </div>
