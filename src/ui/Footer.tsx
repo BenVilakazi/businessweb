@@ -20,7 +20,7 @@ const Footer = () => {
           Code Domain
         </h2>
         <p className="text-base text-darkText tracking-wide">
-          We're experts in web development and digital marketing. From sleek websites campaigns, we make your digital vision a reality
+          We are experts in web development and digital marketing. From sleek websites campaigns, we make your digital vision a reality
         </p>
         <p className="flex items-center text-lg gap-5">
           <BsTwitter className="text-white hover:text-secondaryColor duration-500 cursor-pointer" />

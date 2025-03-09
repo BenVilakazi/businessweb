@@ -164,7 +164,7 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-          Firebase's for real-time data sync across clients with Realtime Database.
+          Firebases for real-time data sync across clients with Realtime Database.
           </p>
         </div>
       </div>
