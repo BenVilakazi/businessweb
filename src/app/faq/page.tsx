@@ -16,27 +16,51 @@ import { BiChevronDown } from "react-icons/bi";
 const faqData = [
   {
     _id: "01",
-    title: "How to order from here?",
+    title: "What services do you offer?",
     subTitle:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam sit corporis labore possimus blanditiis sed quo deserunt asperiores molestiae commodi.",
+      "We offer a range of services including website design and development, e-commerce solutions, custom web applications, content management systems (CMS), website maintenance, and SEO Optimization",
   },
   {
     _id: "02",
-    title: "Is services are applicable for me?",
+    title: "How much does a website cost?",
     subTitle:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam sit corporis labore possimus blanditiis sed quo deserunt asperiores molestiae commodi.",
+      "The cost of a website varies depending on the complexity, features, and design requirements. We offer different pricing packages to accomodate various bedgets.",
   },
   {
     _id: "03",
-    title: "How long it will take to delivery?",
+    title: "How long does it take to build a website?",
     subTitle:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam sit corporis labore possimus blanditiis sed quo deserunt asperiores molestiae commodi.",
+      "The timeline for building a website depends on the project's scope and complexity. On average, a standard website can take anywhere from 4 to 12 weeks to complete.",
+  },
+  {
+    _id: "04",
+    title: "Do you provide website maintenance and support?",
+    subTitle:
+      "Yes, we offer ongoing website maintenance and support services to ensure your website remains secure, up-to-date, and fully functional",
   },
   {
     _id: "05",
-    title: "Where is my Order?",
+    title: "What is digital marketing, and how can it benefit my small business?",
     subTitle:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam sit corporis labore possimus blanditiis sed quo deserunt asperiores molestiae commodi.",
+      "Digital marketing promotes your business online, increasing visibility and engagement. It drives sales by connecting with your target audience through platforms like SEO, social media and email",
+  },
+  { 
+    _id: "06",
+    title: "How long does it take to see results from digital marketing efforts?",
+    subTitle:
+     "SEO takes 3-6 months for results, PPC delivers immediate traffic, and social media success varies but can show impact in weeks. Combining strategies often yields the best outcomes."
+  },
+  {
+     _id: "07",
+     title: "What is the difference between SEO and PPC, and which one is better for my business",
+     subTitle:
+     "SEO is cost-effective with long-term results, while PPC delivers instant traffic at a cost. The right choice depends on your goal, but a combination is often ideal for growth."
+  },
+  {
+     _id: "08",
+     title: "Can you help with both website development and ongoing digital marketing?",
+     subTitle:
+     "Yes, we create optimized websites and povide ongoing digital marketing (SEO, social media, PPC) to seamlessly grow your online presence and drive consistent traffic."
   },
 ];
 
@@ -90,59 +114,57 @@ const Faq = () => {
           </h3>
           <div className="mt-4 flex flex-col gap-8">
             <div className="flex flex-col gap-2">
-              <h4 className="text-lg uppercase">Bangladesh :</h4>
+              <h4 className="text-lg uppercase">Kwa-Zulu Natal :</h4>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <FaHome />
                 </span>
-                Rupnogor Abashik Area, <br />
-                Mirpur-1, Dhaka.
+                Newscastle, Kwa-Zulu Natal
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <MdMarkEmailUnread />
                 </span>
-                reactjsbd@gmail.com
+                percy@codedomain.co.za
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <BsPhoneFill />
                 </span>
-                +968 97859628
+                +27 71399 2101
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <IoLogoWhatsapp />
                 </span>
-                +968 97859628
+                +27 63 977 5983
               </p>
             </div>
             <div className="flex flex-col gap-2">
-              <h4 className="text-lg uppercase">Oman :</h4>
+              <h4 className="text-lg uppercase">Roodepoort :</h4>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <FaHome />
                 </span>
-                Muscat Business Area, Ruwi, <br />
-                Muscat, Sultanate of Oman
+                Roodepoort, Gauteng
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <MdMarkEmailUnread />
                 </span>
-                reactjsbd@gmail.com
+                ben@codedomain.co.za
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <BsPhoneFill />
                 </span>
-                +968 97859628
+                +27 71399 2101
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <IoLogoWhatsapp />
                 </span>
-                +968 97859628
+                +27 63 977 5983
               </p>
             </div>
           </div>
